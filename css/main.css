@@ -14,18 +14,27 @@
 
 .head {
     grid-area: hd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav {
     grid-area: nb;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
     grid-area: ct;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
     grid-area: ft;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
