@@ -1,4 +1,20 @@
 /* Mobile First */
 .container {
     display: grid;
+    width: 100%
+}
+
+/* tablet devices */
+@media(min-width: 480px) {
+
+}
+
+/* small screens, laptops */
+@media(min-width: 768px) {
+
+}
+
+/* large screens, desktops */
+@media(min-width: 1024px) {
+    
 }
