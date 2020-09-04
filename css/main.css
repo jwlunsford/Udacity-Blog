@@ -1,9 +1,10 @@
 /* Mobile First */
 .container {
     display: grid;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     grid-template-columns: 100vw;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: 100px 50px 1fr;
     grid-template-areas:
         "hd hd hd hd"
         "nb nb nb nb"
@@ -25,6 +26,11 @@
 
 .footer {
     grid-area: ft;
+}
+
+.box {
+    border-style: solid;
+    border-color: red;
 }
 
 /* tablet devices */
