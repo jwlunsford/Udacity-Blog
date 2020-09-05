@@ -1,12 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
 
+
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+/* Typeface */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+    color: #339933;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 1.5em;
+    font-weight: 300;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: #737373;
 }
+
+a:link {
+    text-decoration: none;
+    color: #0066ff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #80b3ff;
+}
+
+a:visited {
+    color: #0047b3;
+}
+
+
+
+
 
 /* Mobile First */
 .container {
@@ -14,7 +73,7 @@ p {
     width: 100vw;
     height: 100vh;
     grid-template-columns: 100vw;
-    grid-auto-rows: 100px 50px 1fr;
+    grid-auto-rows: 150px 0fr 4fr;
     grid-template-areas:
         "hd hd hd hd"
         "nb nb nb nb"
