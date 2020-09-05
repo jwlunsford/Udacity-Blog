@@ -72,12 +72,12 @@ a:visited {
     width: 100vw;
     height: 100vh;
     grid-template-columns: 100vw;
-    grid-auto-rows: 150px 0fr 4fr;
+    grid-auto-rows: 150px 0fr 4fr 0fr;
     grid-template-areas:
-        "hd hd hd hd"
-        "nb nb nb nb"
-        "ct ct ct ct"
-        "ft ft ft ft";
+        "hd hd hd"
+        "nb nb nb"
+        "ct ct ct"
+        "ft ft ft";
 }
 
 .head {
