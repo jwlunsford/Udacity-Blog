@@ -113,8 +113,13 @@ p.card-text {
 
 .card {
     width: 15rem;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+.smlogo {
+    height: 50px;
+    width: 50px;
+    margin: 10px 20px 20px 10px;
 }
 
 /* tablet devices */
