@@ -71,9 +71,8 @@ p.card-text {
 .container {
     display: grid;
     width: 100vw;
-    height: 100vh;
     grid-template-columns: 100vw;
-    grid-auto-rows: 150px 0fr 4fr 0fr;
+    grid-auto-rows: 110px 0.5fr 4.5fr 1fr;
     grid-template-areas:
         "hd hd hd hd hd hd hd hd"
         "nb nb nb nb nb nb nb nb"
