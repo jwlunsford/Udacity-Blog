@@ -97,6 +97,7 @@ p.card-text {
     grid-area: ct;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -123,7 +124,7 @@ p.card-text {
 .smlogo {
     height: 50px;
     width: 50px;
-    margin: 10px 20px 20px 10px;
+    margin: 10px 5px 10px 5px;
 }
 
 /* tablet devices */
