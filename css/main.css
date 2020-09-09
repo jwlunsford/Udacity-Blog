@@ -70,14 +70,14 @@ p.card-text {
 /* Mobile First */
 .container {
     display: grid;
-    width: 100vw;
-    grid-template-columns: 100vw;
+    width: 100%;
+    grid-template-columns: 100%;
     grid-auto-rows: 110px 0.5fr 4.5fr 1fr;
     grid-template-areas:
-        "hd hd hd hd hd hd hd hd"
-        "nb nb nb nb nb nb nb nb"
-        "ct ct ct ct ct ct ct ct"
-        "ft ft ft ft ft ft ft ft";
+        "hd hd hd hd"
+        "nb nb nb nb"
+        "ct ct ct ct"
+        "ft ft ft ft";
 }
 
 .head {
@@ -96,6 +96,7 @@ p.card-text {
 .content {
     grid-area: ct;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -105,8 +106,12 @@ p.card-text {
     justify-content: center;
 }
 
+.footer p {
+    margin-top: 60px;
+}
+
 .box {
-    border-style: solid;
+    border-style: none;
     border-color: red;
 }
 
