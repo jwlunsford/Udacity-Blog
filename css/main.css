@@ -45,10 +45,10 @@ p.card-text {
     grid-template-columns: 100%;
     grid-auto-rows: 110px 0.25fr 4.5fr .25fr;
     grid-template-areas:
-        "hd hd hd hd hd hd"
-        "nb nb nb nb nb nb"
-        "ct ct ct ct ct ct"
-        "ft ft ft ft ft ft";
+        "hd hd hd hd"
+        "nb nb nb nb"
+        "ct ct ct ct"
+        "ft ft ft ft";
 }
 
 .head {
@@ -69,7 +69,7 @@ p.card-text {
 .content {
     grid-area: ct;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     justify-content: center;
     margin: 0% 5% 0% 5%;
 }
@@ -92,12 +92,7 @@ p.card-text {
 }
 
 .card {
-    width: 20rem;
-    margin: 20px 20px 20px 20px;
-}
-
-.card-img-top {
-    height: 310px;
+    margin: 2% 10% 2% 10%;
 }
 
 .smlogo {
