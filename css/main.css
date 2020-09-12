@@ -38,6 +38,14 @@ p.card-text {
     margin-top: 8px;
 }
 
+.post {
+    background-color: #f0f5f5;
+    margin: 2% 5% 2% 5%;
+    padding: 10px;
+    border: 0.25px ridge;
+    border-radius: 20px;
+}
+
 
 /* Mobile First */
 .main_container {
@@ -130,8 +138,39 @@ p.card-text {
     margin-top: 60px;
 }
 
+.post h2, h6 {
+    text-align: center;
+}
+
+.post p {
+    text-indent: 25px;
+    text-align: justify;
+}
+
+div.polaroid {
+    display: block;
+    margin: auto auto 25px auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post img {
+    width:100%;
+}
+
+div.img_frame {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.post hr {
+    width: 40%;
+}
+
 .box {
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
     border-color: red;
 }
