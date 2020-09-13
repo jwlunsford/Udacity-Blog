@@ -110,8 +110,24 @@ p.card-text {
 }
 
 .post {
-    background-color: #f0f5f5;
-    margin: 2% 5% 2% 5%;
+    background-color: #f5fafa;
+    margin: 5px 20px 20px 20px;
+    padding: 10px;
+    border: 0.25px ridge;
+    border-radius: 20px;
+}
+
+.about {
+    background-color: #f5fafa;
+    margin: 5px 20px 10px 5px;
+    padding: 10px;
+    border: 0.25px ridge;
+    border-radius: 20px;
+}
+
+.archive {
+    background-color: #f5fafa;
+    margin: 2px 20px 2px 5px;
     padding: 10px;
     border: 0.25px ridge;
     border-radius: 20px;
@@ -134,15 +150,17 @@ p.card-text {
 
 .post_content {
     display: flex;
+    flex-direction: column;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 }
 
 .post_sidebar {
     display: flex;
+    flex-direction: column;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .post_footer {
@@ -161,15 +179,13 @@ p.card-text {
 }
 
 .post p {
-    text-indent: 25px;
     text-align: justify;
 }
 
 div.polaroid {
-    display: block;
-    margin: auto auto 25px auto;
-    margin-right: auto;
-    width: 40%;
+    margin: auto 25px 25px auto;
+    float: left;
+    width: 30%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -185,6 +201,18 @@ div.img_frame {
 
 .post hr {
     width: 40%;
+}
+
+#prevpost {
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#nextpost {
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
 }
 
 
