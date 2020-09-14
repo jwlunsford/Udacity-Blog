@@ -40,19 +40,19 @@ p.card-text {
 
 
 /* Mobile First */
-.main_container {
+.main-wrapper {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: 110px 0.25fr 4.5fr 100px;
     grid-template-areas:
-        "hd hd hd hd"
-        "nb nb nb nb"
-        "ct ct ct ct"
-        "ft ft ft ft";
+        "header"
+        "nav"
+        "content"
+        "footer";
 }
 
-.head {
-    grid-area: hd;
+.header {
+    grid-area: header;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,14 +60,14 @@ p.card-text {
 }
 
 .nav {
-    grid-area: nb;
+    grid-area: nav;
     display: flex;
     justify-content: center;
     margin: 0% 5% 0% 5%;
 }
 
 .content {
-    grid-area: ct;
+    grid-area: content;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -75,7 +75,7 @@ p.card-text {
 }
 
 .footer {
-    grid-area: ft;
+    grid-area: footer;
     display: flex;
     justify-content: center;
     margin: 0% 5% 0% 5%;
@@ -103,7 +103,7 @@ p.card-text {
 
 
 /* POST.HTML CSS */
-.post_container {
+.post-wrapper {
     display: grid;
     grid-template-columns: 1.5fr 0.5fr;
     grid-template-rows: 110px 0.25fr 4.5fr 100px;
