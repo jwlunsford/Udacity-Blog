@@ -43,20 +43,28 @@ p.card-text {
 .main-wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: 110px 0.25fr 4.5fr 100px;
+    grid-auto-rows: 80px 250px 6.5fr 0.25fr;
+    grid-gap: 10px;
     grid-template-areas:
+        "nav"    
         "header"
-        "nav"
         "content"
+        "sidebar"
         "footer";
 }
 
 .header {
     grid-area: header;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0% 5% 0% 5%;
+    background: #e4e9e4;
+    padding: 15px;
+}
+
+.header h1 {
+    text-transform: uppercase;
 }
 
 .nav {
