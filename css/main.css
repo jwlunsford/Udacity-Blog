@@ -236,8 +236,7 @@ div.img_frame {
         display: flex;
         flex-flow: column;
         justify-content: flex-start;
-    }
-    
+    }   
 }
 
 /* small screens, laptops */
@@ -299,7 +298,6 @@ div.img_frame {
     ul {
         list-style-type: none;
     }
-
 }
 
 /* large screens, desktops */
@@ -361,6 +359,4 @@ div.img_frame {
     ul {
         list-style-type: none;
     }
-
-
 }
