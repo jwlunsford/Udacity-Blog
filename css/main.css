@@ -71,7 +71,7 @@ p.card-text {
 .nav {
     grid-area: navbar;
     text-transform: capitalize;
-    margin: 2% 5% 2% 5%;
+    margin-top: 2%;
     justify-content: space-evenly;
 }
 
@@ -81,7 +81,6 @@ p.card-text {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin: 0% 5% 0% 5%;
 }
 
 .content {
@@ -89,17 +88,15 @@ p.card-text {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    margin: 0% 5% 0% 5%;
 }
 
 .footer {
     grid-area: footer;
     display: flex;
     justify-content: center;
-    margin: 0% 5% 0% 5%;
 }
 
-.footer p {
+.footer h6 {
     margin-top: 60px;
 }
 
@@ -235,7 +232,13 @@ div.img_frame {
 
 
 /* tablet devices */
-@media(min-width: 480px) {
+@media(min-width: 575px) {
+    .content {
+        grid-area: content;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+    }
     
 }
 
@@ -243,7 +246,7 @@ div.img_frame {
 @media(min-width: 932px) {
     .main-wrapper {
         display: grid;
-        grid-template-columns: 75% 25%;
+        grid-template-columns: 70% 30%;
         grid-auto-rows: 80px 250px 6.5fr 0.25fr;
         grid-gap: 10px;
         grid-template-areas:
@@ -253,22 +256,39 @@ div.img_frame {
             "footer footer";
     }
 
-    .side-content {
-        margin: 3% 5% 0% 0%;
-    }
-
     .sidebar {
         grid-area: sidebar;
         display: flex;
         flex-direction: column;
-        justify-content: start;
-        align-content: center;
+        justify-content: flex-start;
+    }
+
+    .sidebar p, h2 {
+        margin: 2% 5% 12% 5%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .main-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        text-align: center;
     }
 
     .main-about img {
-        width: 100px;
-        height: 100px;
+        height: 150px;
+        width: 150px;
     }
+
+    ul {
+        list-style-type: none;
+    }
+
+
+
 }
 
 /* large screens, desktops */
