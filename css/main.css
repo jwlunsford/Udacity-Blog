@@ -240,8 +240,35 @@ div.img_frame {
 }
 
 /* small screens, laptops */
-@media(min-width: 768px) {
+@media(min-width: 932px) {
+    .main-wrapper {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-auto-rows: 80px 250px 6.5fr 0.25fr;
+        grid-gap: 10px;
+        grid-template-areas:
+            "navbar navbar"    
+            "header header"
+            "content sidebar"
+            "footer footer";
+    }
 
+    .side-content {
+        margin: 3% 5% 0% 0%;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+    }
+
+    .main-about img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 /* large screens, desktops */
