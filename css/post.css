@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
-@import url("typeface.css");
-
 /* POST.HTML CSS */
 .post-wrapper {
     display: grid;
@@ -10,7 +7,7 @@
     grid-template-areas:
         "navbar"    
         "header"
-        "ct"
+        "content"
         "sidebar"
         "footer";
 }
@@ -49,7 +46,7 @@
 }
 
 .content {
-    grid-area: ct;
+    grid-area: content;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -62,7 +59,7 @@
 .post {
     margin: 5px 20px 20px 20px;
     padding: 10px;
-    border: 1px ridge;
+    border: 0.5px ridge;
 }
 
 .post-title {
@@ -132,7 +129,7 @@ div.polaroid {
 /* tablet devices */
 @media(min-width: 575px) {
     .content {
-        grid-area: ct;
+        grid-area: content;
         display: flex;
         flex-flow: column;
         justify-content: flex-start;
@@ -149,7 +146,7 @@ div.polaroid {
         grid-template-areas:
             "navbar navbar"    
             "header header"
-            "ct sidebar"
+            "content sidebar"
             "footer footer";
     }
 
@@ -192,7 +189,7 @@ div.polaroid {
         grid-template-areas:
             "navbar navbar"    
             "header header"
-            "ct sidebar"
+            "content sidebar"
             "footer footer";
     }
 
