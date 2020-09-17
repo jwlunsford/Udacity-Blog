@@ -144,6 +144,10 @@ blockquote {
     text-align: center;
 }
 
+.signup-form {
+    text-align: center;
+}
+
 #avatar {
     height: 80px;
     width: 80px;
