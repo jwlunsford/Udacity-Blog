@@ -65,7 +65,7 @@ blockquote {
 .main-wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: 80px 250px 3fr 0.25fr;
+    grid-auto-rows: 60px 250px 3fr 0.25fr;
     grid-gap: 10px;
     grid-template-areas:
         "navbar"    
@@ -86,7 +86,7 @@ blockquote {
     padding: 15px;
 }
 
-.header h1 {
+.blog-title {
     text-transform: uppercase;
 }
 
@@ -144,7 +144,7 @@ blockquote {
     text-align: center;
 }
 
-.main-about img {
+#avatar {
     height: 80px;
     width: 80px;
 }
@@ -153,12 +153,17 @@ ul {
     list-style-type: none;
 }
 
+.calendar-img {
+    height: 24px;
+    width: 24px;
+}
+
 
 /* POST.HTML CSS */
 .post-wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: 80px 250px 2fr 0.25fr;
+    grid-auto-rows: 60px 250px 2fr 0.25fr;
     grid-gap: 10px;
     grid-template-areas:
         "navbar"    
@@ -192,12 +197,12 @@ ul {
     /*border: 0.25px ridge;*/
 }
 
-.post h2, h6 {
+.post-title {
     text-align: center;
 }
 
-.post p {
-    text-align: justify;
+.post-date {
+    text-align: center;
 }
 
 .post-nav {
@@ -215,16 +220,16 @@ div.polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.post img {
+.post-img {
     width:100%;
 }
 
-div.img_frame {
+.img-frame {
     text-align: center;
     padding: 10px 20px;
 }
 
-.post hr {
+.post-hr {
     width: 50%;
 }
 
@@ -244,7 +249,7 @@ div.img_frame {
     .main-wrapper {
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-auto-rows: 80px 250px 3fr 0.25fr;
+        grid-auto-rows: 60px 250px 3fr 0.25fr;
         grid-gap: 5px;
         grid-template-areas:
             "navbar navbar"    
@@ -256,7 +261,7 @@ div.img_frame {
     .post-wrapper {
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-auto-rows: 80px 250px 2fr 0.25fr;
+        grid-auto-rows: 60px 250px 2fr 0.25fr;
         grid-gap: 5px;
         grid-template-areas:
             "navbar navbar"    
@@ -277,7 +282,7 @@ div.img_frame {
         margin-left: 5%;
     }
 
-    .sidebar p, h2 {
+    .sidebar-h2, .sidebar-p {
         margin: 2% 5% 12% 5%;
         text-align: center;
     }
@@ -290,7 +295,7 @@ div.img_frame {
         text-align: left;
     }
 
-    .main-about img {
+    #avatar {
         height: 150px;
         width: 150px;
     }
@@ -305,7 +310,7 @@ div.img_frame {
     .main-wrapper {
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-auto-rows: 80px 250px 3fr 0.25fr;
+        grid-auto-rows: 60px 250px 3fr 0.25fr;
         grid-gap: 20px;
         grid-template-areas:
             "navbar navbar"    
@@ -317,7 +322,7 @@ div.img_frame {
     .post-wrapper {
         display: grid;
         grid-template-columns: 70% 30%;
-        grid-auto-rows: 80px 250px 2fr 0.25fr;
+        grid-auto-rows: 60px 250px 2fr 0.25fr;
         grid-gap: 20px;
         grid-template-areas:
             "navbar navbar"    
@@ -338,7 +343,7 @@ div.img_frame {
         margin-left: 10%;
     }
 
-    .sidebar p, h2 {
+    .sidebar-h2, .sidebar-p {
         margin: 2% 5% 12% 5%;
         text-align: center;
     }
@@ -351,7 +356,7 @@ div.img_frame {
         text-align: left;
     }
 
-    .main-about img {
+    #avatar {
         height: 150px;
         width: 150px;
     }
