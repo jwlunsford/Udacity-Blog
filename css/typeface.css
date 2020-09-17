@@ -1,0 +1,57 @@
+/* Typeface */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway';
+    margin-top: 10px;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #737373;
+}
+
+p em {
+    font-style: italic;
+    font-weight: 500;
+}
+
+p b {
+    font-weight: 900;
+}
+
+p u {
+    font-weight: 400;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0066ff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #80b3ff;
+}
+
+a:visited {
+    color: #0047b3;
+}
+
+p.card-text {
+    margin-top: 8px;
+}
+
+blockquote {
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.7rem;
+    color: #ccc;
+    text-align: center;
+}
