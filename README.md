@@ -15,7 +15,7 @@ This project demonstrates front-end layout using HTML and CSS to create a respon
 
 Open **main.html** or **post.html** in a compatible web browser to display the pages.  **Main.html** is a template for primary blog page, where blog articles are aggregated, and **post.html** is a template of the individual blog posts.
 
-![Main Page](https://github.com/jwlunsford/Udacity-Blog/main-img.png?raw=true)
+![Main Page](https://github.com/jwlunsford/Udacity-Blog/blob/master/main-img.png?raw=true)
 
 ## Authors
 
