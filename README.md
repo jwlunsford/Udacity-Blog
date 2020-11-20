@@ -15,9 +15,12 @@ This project demonstrates front-end layout using HTML and CSS to create a respon
 
 Open **main.html** or **post.html** in a compatible web browser to display the pages.  **Main.html** is a template for primary blog page, where blog articles are aggregated, and **post.html** is a template of the individual blog posts.
 
+### Screenshot of Main.html
 ![Main Page](https://github.com/jwlunsford/Udacity-Blog/blob/master/main-img.png?raw=true)
 
-## Authors
+### Screenshot of Post.html
+![Post Page](https://github.com/jwlunsford/Udacity-Blog/blob/master/post-img.png?raw=true)
 
-* Files **css/styles.css** and **index.html** were provided by the team at Udacity.
-* File **js/app.js** was completed by Jon Lunsford, on October 23, 2020.
+## Author
+
+This project was completed by Jon Lunsford, September 13, 2020.
